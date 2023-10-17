@@ -1,0 +1,70 @@
+# Last update 2023-08-20
+
+# https://raw.githubusercontent.com/github/gitignore/main/Android.gitignore
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+#https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+cscope.*
+
+# Persistent undo
+[._]*.un~
+
+# signning keys
+keystore.properties
+
+
+
+# https://raw.githubusercontent.com/github/gitignore/main/Global/Kate.gitignore
+# Swap Files #
+.*.kate-swp
+.swp.*
